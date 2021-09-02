@@ -40,8 +40,7 @@
           pname = "xcaddy";
           inherit version;
 
-          buildInputs = [ go ];
-          nativeBuildInputs = [ makeWrapper ];
+          buildInputs = [ go makeWrapper ];
 
           unpackPhase = "true";
 
